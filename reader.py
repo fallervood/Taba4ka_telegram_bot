@@ -7,8 +7,8 @@ from content import Client
 # Файл, полученный в Google Developer Console
 CREDENTIALS_FILE = 'creds.json'
 # ID Google Sheets документа (можно взять из его URL)
-spreadsheet_clients = '1EECCodeF16sRm9J84xQlbFAO2MyEnk8KYFKfoN5PTaQ'
-spreadsheet_inventory = '1IqrMR_a_zNeueU5QF3Pi6E9IN2TM_eEzBKxGZ6GG6OA'
+spreadsheet_clients = 'TOKEN_1'
+spreadsheet_inventory = 'TOKEN_2'
 
 # Авторизуемся и получаем service — экземпляр доступа к API
 credentials = ServiceAccountCredentials.from_json_keyfile_name(

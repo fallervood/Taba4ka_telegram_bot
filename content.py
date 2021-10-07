@@ -1,4 +1,3 @@
-# 417876253
 def settingsUpdate():
 	settings = {}
 	with open('settings.txt', 'r', encoding='utf-8') as file:
@@ -8,7 +7,6 @@ def settingsUpdate():
 		# print('Update in settings:\n',settings)
 		return settings
 
-# settingsUpdate()
 
 def settingsWrite():
 	lines = []
@@ -25,11 +23,7 @@ def settingsWrite():
 	with open('settings.txt', 'w', encoding='utf-8') as file:
 		for line in lines:
 			file.write(line)
-
-# settingsWrite()
-# settings = settingsUpdate()
-# print(settings['КолвоЗаказов'])
-
+			
 
 class Client:
 	def __init__(self, client_id, name, phone, location, time):

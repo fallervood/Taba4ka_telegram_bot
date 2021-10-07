@@ -47,9 +47,3 @@ class Cart:
 		self.taste = taste
 		self.count = count
 		self.cost = cost
-
-
-
-
-
-# 1746512241:AAHg8tXMzVtcFCXGDZMbFkHqbfZZGGGSNVQ

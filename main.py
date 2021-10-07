@@ -11,13 +11,8 @@ import random
 # Телега - @Fallervood , пишите по всем вопросам
 programmer_id = '1587111554'
 
-# main bot
-# 1971820823:AAH5fAIKhdrXAwzRS6Rc_ckZCsZJhAvbQxc
-# test bot
-# 1746512241:AAHg8tXMzVtcFCXGDZMbFkHqbfZZGGGSNVQ
-
 # Bot's API Token
-bot = telebot.TeleBot('1746512241:AAHg8tXMzVtcFCXGDZMbFkHqbfZZGGGSNVQ')
+bot = telebot.TeleBot('TOKEN')
 
 user_dic = {}
 user_page = {}
